@@ -114,10 +114,10 @@ footer {
     width: 40px;
 }
 
-a,
-a:hover,
-a:focus,
-a:active {
+footer a,
+footer a:hover,
+footer a:focus,
+footer a:active {
     color: #f5f5f5;
 }
 
