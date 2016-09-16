@@ -31,13 +31,6 @@ h2 {
     left: 0;
 }
 
-@media (max-width: 992px) {
-    h2 {
-        font-size: 18px;
-        top: 40%;
-    }
-}
-
 .filter {
     filter: blur(2px);
 }
@@ -52,6 +45,20 @@ h2 {
 
 .bg-white {
     background-color: #FFF;
+}
+
+.que-text p {
+    font-weight: 400;
+}
+
+.que-text {
+    margin-bottom: 40px;
+    }
+
+p.dev-text {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
 }
 
 .margin-5 {
@@ -70,7 +77,7 @@ i {
     background-color: #b9e937;
     padding: 22px 0 0 3px;
     border-radius: 50%;
-    margin-bottom: 4px;
+    margin-bottom: 8px;
     color: #406661;
     height: 100px;
     width: 100px;
@@ -86,6 +93,7 @@ i {
 
 #como p {
     margin-bottom: 0;
+    font-size: 14px;
 }
 
 .scrolloff {
@@ -102,17 +110,19 @@ footer {
     padding: 10px 0;
 }
 
-
 .meetup-logo {
     width: 40px;
 }
 
-a, a:hover, a:focus, a:active {
+a,
+a:hover,
+a:focus,
+a:active {
     color: #f5f5f5;
 }
 
 .fa-facebook-official:hover {
-    color: #8b9dc3;
+    color: #3d5a98;
 }
 
 .fa-twitter:hover {
@@ -124,11 +134,11 @@ a, a:hover, a:focus, a:active {
 }
 
 .fa-slack:hover {
-    color: #5a3d59;    
+    color: #3bb18b;
 }
 
 .fa-github-alt:hover {
-    color: #FF99FE;    
+    color: #f6c6af;
 }
 
 .meetup-logo {
@@ -136,6 +146,15 @@ a, a:hover, a:focus, a:active {
 }
 
 .meetup-logo:hover {
-    fill: #e0393d;    
+    fill: #e0393d;
 }
 
+@media (max-width: 992px) {
+    h2 {
+        font-size: 18px;
+        top: 40%;
+    }
+    .embed-responsive-16by9 {
+        padding-bottom: 50%;
+    }
+}
