@@ -92,6 +92,10 @@ i {
     pointer-events: none;
 }
 
+.embed-responsive-16by9 {
+    padding-bottom: 30%;
+}
+
 footer {
     background-color: #406661;
     color: #f5f5f5;
